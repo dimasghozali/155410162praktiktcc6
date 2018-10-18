@@ -1,0 +1,10 @@
+runtime: php55
+api_version: 1
+threadsafe: true
+handlers:
+- url: /css
+  static_dir: css
+- url: /js
+  script: js
+- url: /
+  script: index.html
